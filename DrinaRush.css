@@ -1,0 +1,194 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+}
+
+.navbar {
+    background-color: transparent;
+    position: fixed;
+    left: 50px;
+    right: 50px;
+}
+
+.navbar-brand img {
+    width: 150px;
+    height: auto; /* Garante que a altura seja ajustada automaticamente */
+    margin-bottom: -20px;
+    margin-top: -15px;
+}
+
+.navbar-brand {
+    display: flex; /* Permite que a imagem e o texto fiquem lado a lado */
+    align-items: center; /* Alinha verticalmente o conteúdo */
+    justify-content: center; /* Alinha horizontalmente o conteúdo */
+}
+
+.nav-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home, .about, .resume,
+.contact {
+    border: 10px;
+    border-radius: 8px;
+    background-color: black;
+    color: #f8f9fa;
+    margin: 5px;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.primeiro-perfil{
+    display: inline-block;
+    justify-content: left;
+    align-items: left;
+    margin-left: 30vh;
+    max-width: 30%;
+    height: 100vh;
+}
+
+.primeiro-perfil h1{
+    align-items: center;
+    justify-content: center;
+    margin-left: 18vh;
+}
+
+.primeiro-perfil img{
+    width: 50vh;
+    border-radius: 150vh;
+}
+
+.primeiro-perfil p{
+    font-size: 20px;
+    margin-left: 10vh;
+}
+
+.segundo-perfil{
+    display: inline-block;
+    justify-content: right;
+    align-items: right;
+    margin-left: 30vh;
+    max-width: 30%;
+    height: 100vh;
+}
+
+.segundo-perfil h1{
+    align-items: center;
+    justify-content: center;
+    margin-left: 18vh;
+}
+
+.segundo-perfil img{
+    width: 50vh;
+    border-radius: 120vh;
+}
+
+.segundo-perfil p{
+    font-size: 20px;
+    margin-left: 10vh;
+
+}
+
+.banner{
+    background-image: url('img/banner.jpeg'); 
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#resumo{
+    background-color: #f8f9fa;
+    height: 100vh;
+    display: flex;
+    margin-left: 21%;
+    color: #f8f9fa;
+
+}
+
+.primeiro-card {
+    width: 50vh;
+    border-radius: 120vh;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: black;
+    max-height: 50vh;
+    margin-top: 20vh;
+}
+
+.primeiro-card h2{
+    text-align:center;
+    font-size: 50px;
+}
+
+
+.segundo-card {
+    width: 50vh;
+    border-radius: 120vh;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: black;
+    max-height: 50vh;
+    margin-top: 20vh;
+    margin-left: 17vh;
+
+}
+
+.segundo-card h2{
+    text-align:center;
+    font-size: 50px;
+}
+
+.primeiro-card ul,
+.segundo-card ul {
+    text-align: left;
+    display: inline-block;
+}
+
+#footer {
+    background-color: #837e7e;
+    color: black;
+    padding: 70px;
+    text-align: center;
+
+}
+
+.contato-adrielle, .contato-bruna {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.contato-adrielle a, .contato-bruna a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.contato-adrielle img, .contato-bruna img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.contato-adrielle img:hover, .contato-bruna img:hover {
+    transform: scale(1.1);
+}
+
+@media (width: 100%) {
+    body, .navbar,#resumo,.footer {
+        font-size: 12px; 
+    }
+}
+
+@media (height: 100%) {
+    body, .navbar,#resumo,.footer{
+        font-size: 12px; 
+    }
+}
