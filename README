@@ -1,4 +1,4 @@
-# Rush Web - 42sp
+#Rush Web - 42sp
 
 
 Esse prototipo de portifolio foi um desafio proposto pela Escola 42, realizado em dupla e feito em algumas horas. Futuramente irei voltar nesse projeto e ajustar erros.
